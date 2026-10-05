@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Your Random Note</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .note {
+            margin-top: 40px;
+            padding: 30px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 20px;
+            white-space: pre-wrap;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>You found a note</h1>
+
+    <div class="note">
+        {{ note }}
+    </div>
+
+    <a href="/">Leave another note</a>
+
+</body>
+</html>
